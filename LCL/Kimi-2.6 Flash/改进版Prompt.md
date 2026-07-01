@@ -1,4 +1,4 @@
-# DeepSeek-V4 Flash 改进版Prompt
+# Kimi-2.6 Flash 改进版Prompt
 
 ## 样例 1
 
