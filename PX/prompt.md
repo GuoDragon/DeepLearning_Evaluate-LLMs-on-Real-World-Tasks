@@ -1,25 +1,25 @@
 ## 一、基础Prompt
 
 ### 样例1：基础概念-过拟合与欠拟合（简单）
-你是一名深度学习课程助教。请用本科生能够理解的方式解释过拟合和欠拟合的区别，并各举一个简单例子。
+请用本科生能够理解的方式解释过拟合和欠拟合的区别，并各举一个简单例子。
 
 ### 样例2：基础概念-梯度下降与反向传播（简单）
-你是一名深度学习课程助教。请解释梯度下降和反向传播分别是什么，它们在神经网络训练中有什么关系。
+请解释梯度下降和反向传播分别是什么，它们在神经网络训练中有什么关系。
 
 ### 样例3：机制理解-Batch Normalization（中等）
-你是一名深度学习课程助教。请解释为什么 Batch Normalization 可以加速神经网络训练，并说明它对训练稳定性的影响。
+请解释为什么 Batch Normalization 可以加速神经网络训练，并说明它对训练稳定性的影响。
 
 ### 样例4：对比分析-CNN、RNN 与 Transformer（中等）
-你是一名深度学习课程助教。请比较 CNN、RNN 和 Transformer 的主要特点、适用场景和局限性。
+请比较 CNN、RNN 和 Transformer 的主要特点、适用场景和局限性。
 
 ### 样例5：数学解释-Attention 中的 Query、Key、Value（中等）
-你是一名深度学习课程助教。请解释 Attention 机制中 Query、Key 和 Value 的含义，并说明它们如何共同计算注意力结果。
+请解释 Attention 机制中 Query、Key 和 Value 的含义，并说明它们如何共同计算注意力结果。
 
 ### 样例6：数学解释-Softmax 与交叉熵损失（中等）
-你是一名深度学习课程助教。请解释多分类任务中 Softmax 函数和交叉熵损失的作用，并说明为什么它们经常一起使用。
+请解释多分类任务中 Softmax 函数和交叉熵损失的作用，并说明为什么它们经常一起使用。
 
 ### 样例7：代码调试-PyTorch 维度不匹配（较难）
-你是一名深度学习课程助教。请指出下面 PyTorch 代码中的错误原因，并给出修改建议。
+请指出下面 PyTorch 代码中的错误原因，并给出修改建议。
 ```python
 import torch
 import torch.nn as nn
@@ -31,7 +31,7 @@ print(y.shape)
 ```
 
 ### 样例8：代码调试-训练循环问题（较难）
-你是一名深度学习课程助教。请找出下面训练循环中可能导致训练效果异常的问题，并说明如何修改。
+请找出下面训练循环中可能导致训练效果异常的问题，并说明如何修改。
 ```python
 for epoch in range(5):
     for x, y in train_loader:
@@ -42,11 +42,11 @@ for epoch in range(5):
 ```
 
 ### 样例9：复习整理-深度学习知识提纲（较难）
-你是一名深度学习课程助教。请根据以下课堂笔记生成一份适合考前复习的提纲。
+请根据以下课堂笔记生成一份适合考前复习的提纲。
 课堂笔记：本章讲了神经网络训练中的优化与正则化。优化方法包括 SGD、Momentum、Adam。正则化方法包括 L2 正则化、Dropout、数据增强和 Early Stopping。还提到了学习率对训练收敛速度和最终效果的影响。
 
 ### 样例10：论文阅读辅助-英文摘要理解（较难）
-你是一名深度学习课程助教。请用中文解释下面英文论文摘要片段的核心意思，并说明其中涉及的深度学习概念。
+请用中文解释下面英文论文摘要片段的核心意思，并说明其中涉及的深度学习概念。
 Abstract excerpt: We propose a transformer-based architecture for image classification. By replacing convolutional inductive biases with self-attention mechanisms, the model captures long-range dependencies between image patches. Experiments show improved performance on large-scale datasets, but the approach requires substantial computational resources during training.
 
 ---
