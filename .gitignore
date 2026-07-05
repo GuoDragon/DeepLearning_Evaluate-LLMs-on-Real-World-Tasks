@@ -1,0 +1,15 @@
+﻿# Local archive / non-submission files
+_archive_ignore/
+
+# Office temporary files
+~$*
+~WRL*.tmp
+*.tmp
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
